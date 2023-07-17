@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: 'Caveat', cursive;
+  color: #13044f;
+}
+
+#wrapper {
+  background-color: #d5e0e3;
+  margin: auto 50px;
+  padding: 50px;
+  border: 2px solid darkgray;
+  border-radius: 20px;
+}
+
+h2 {
+  font-size: 2.2em;
+  line-height: 1.1;
+  color: #13044f;
+  margin-bottom: 30px;
+  font-family: 'Caveat', cursive;
+}
+
+
+hr {
+  color: #13044f;
+}
+
+span {
+  font-size: 1.5em;
+  margin: 0px 5px;
+  color: #13044f;
+  font-family: 'Caveat', cursive;
+}
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-left: 10px;
+}
+
+.form-check-input {
+  height: 20px;
+  width: 20px;
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: flex-start;
+  margin-left: 10px;
+}
+
+.taskBox {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  justify-self: center;
+  background-color: #f4f2ed;
+}
+
+.taskBox span {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.taskBox button {
+  grid-column: 3;
+  grid-row: 1;
+}

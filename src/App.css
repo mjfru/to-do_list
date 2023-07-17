@@ -1,0 +1,16 @@
+
+#root {
+  /* max-width: 40%; 1280px */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 40%;
+  /* background-color: #f4f2ed; */
+}
+
+.finishedTask {
+  text-decoration: line-through;
+  color:darkgrey;
+}
+
+
